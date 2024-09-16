@@ -1,11 +1,11 @@
 {
-    "name": "libras_site",
-    "short_name": "libras_site",
+    "name": "Glossário de Libras",
+    "short_name": "Glossário de Libras",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Projeto de glossário de libras.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
