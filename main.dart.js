@@ -65933,7 +65933,7 @@ K(a){var s=this,r=null,q=A.cL().ghS(),p=t.w,o=A.bh(a,r,p).w,n=s.r
 p=n==null?A.bh(a,r,p).w.a.a*0.16:n
 n=s.x
 if(n==null)n=B.zZ
-p=A.r9(r,A.Qe(A.kN(10),A.UD(s.d,s.y,new A.UT())),r,B.wJ,r,o.a.b*0.16,r,n,p)
+p=A.r9(r,A.Qe(A.kN(10),A.UD("assets/"+s.d,s.y,new A.UT())),r,B.wJ,r,o.a.b*0.16,r,n,p)
 o=s.w
 n=o!=null
 return new A.qE(s.c,s.e,s.z,s.Q,A.h7(A.a([p,A.mj(r,n?5:0,r),new A.GP(A.fM(A.h(o),A.h_().$3$color$fontSize$fontWeight(A.cL().gh9(),15,B.i),r),n,r)],t.D),B.N,B.T,B.O),q,r)}}
@@ -65985,24 +65985,20 @@ $S:0}
 A.ws.prototype={
 ac(){return new A.MJ(B.l)}}
 A.MJ.prototype={
-K(a){var s,r,q=this,p=null,o=t.w,n=A.bh(a,p,o).w,m=A.kN(10),l=q.a.c.k(0,"image")
-l.toString
-n=A.mj(A.Qe(m,A.UD(l,B.dt,p)),n.a.b*0.3,p)
-l=A.bh(a,p,o).w
-m=A.kN(10)
-s=q.a.c.k(0,"image_sinal")
-s.toString
+K(a){var s,r,q,p,o=this,n=null,m=t.w,l=A.bh(a,n,m).w
+l=A.mj(A.Qe(A.kN(10),A.UD("assets/"+A.h(o.a.c.k(0,"image")),B.dt,n)),l.a.b*0.3,n)
+s=A.bh(a,n,m).w
 r=t.D
-l=A.eI(A.a([n,B.Iw,A.h7(A.a([A.mj(A.Qe(m,A.UD(s,B.dt,p)),l.a.b*0.3,p),A.fM("Sinal",A.h_().$3$color$fontSize$fontWeight(A.cL().gh9(),15,B.i).Ja(18),p)],r),B.N,B.T,B.O)],r),B.fI,B.pw,B.O)
-s=A.bh(a,p,o).w
-m=A.kN(10)
-n=q.a.c.k(0,"image_sinal_soletrado")
-n.toString
-s=A.mj(A.Qe(m,A.UD(n,B.dt,p)),p,s.a.a*0.6)
-n=A.fM("Sinal soletrado",A.h_().$3$color$fontSize$fontWeight(A.cL().gh9(),15,B.i).Ja(18),p)
-m=A.bh(a,p,o).w
-o=A.bh(a,p,o).w
-return A.h7(A.a([l,B.vB,s,n,B.vB,A.mj(q.a.d,m.a.b*0.6,o.a.a*0.55)],r),B.N,B.T,B.O)}}
+s=A.eI(A.a([l,B.Iw,A.h7(A.a([A.mj(A.Qe(A.kN(10),A.UD("assets/"+A.h(o.a.c.k(0,"image_sinal")),B.dt,n)),s.a.b*0.3,n),A.fM("Sinal",A.h_().$3$color$fontSize$fontWeight(A.cL().gh9(),15,B.i).Ja(18),n)],r),B.N,B.T,B.O)],r),B.fI,B.pw,B.O)
+l=A.bh(a,n,m).w
+q=A.kN(10)
+p=o.a.c.k(0,"image_sinal_soletrado")
+p.toString
+l=A.mj(A.Qe(q,A.UD("assets/"+p,B.dt,n)),n,l.a.a*0.6)
+p=A.fM("Sinal soletrado",A.h_().$3$color$fontSize$fontWeight(A.cL().gh9(),15,B.i).Ja(18),n)
+q=A.bh(a,n,m).w
+m=A.bh(a,n,m).w
+return A.h7(A.a([s,B.vB,l,p,B.vB,A.mj(o.a.d,q.a.b*0.6,m.a.a*0.55)],r),B.N,B.T,B.O)}}
 A.AJ.prototype={}
 A.nD.prototype={
 j(a,b){var s,r
